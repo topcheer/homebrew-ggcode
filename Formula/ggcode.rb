@@ -11,7 +11,7 @@ class Ggcode < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/topcheer/ggcode/releases/download/v1.1.37/ggcode_darwin_x86_64.tar.gz"
-      sha256 "519d70e0bd75279db6cdc324eb66edd8398b8e9af92d525b5df973499be8dfe5"
+      sha256 "4bc0b958a5c85b68a0566639938e6028197dcde0c437f16ef97cf343d8d0a7e1"
 
       define_method(:install) do
         bin.install "ggcode"
@@ -19,7 +19,7 @@ class Ggcode < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/topcheer/ggcode/releases/download/v1.1.37/ggcode_darwin_arm64.tar.gz"
-      sha256 "f226d3a8722ef499f35223a10b1681a6e1d2fd42e362c28c4809f236987e766a"
+      sha256 "43948e46e701f508e654a0f1ded2c9fd1fb116aea26256df321bc1091de4aee5"
 
       define_method(:install) do
         bin.install "ggcode"
@@ -30,14 +30,14 @@ class Ggcode < Formula
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
       url "https://github.com/topcheer/ggcode/releases/download/v1.1.37/ggcode_linux_x86_64.tar.gz"
-      sha256 "87cdfbdecd16322ab6069bc951e692c4f76d85f50de820a52d0727d99fceb99a"
+      sha256 "3deb7c61a4892b297c9243eb91de6c0dc80f8bd43a9a450c4aa848aec5142ea2"
       define_method(:install) do
         bin.install "ggcode"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/topcheer/ggcode/releases/download/v1.1.37/ggcode_linux_arm64.tar.gz"
-      sha256 "6ac672d995c322a5acbb3ede450477f157d37b3dd6efd9c1ba62f55c7520ab61"
+      sha256 "f21b8acc9c81665f21e938ecc693b320cdd345dc03dc98902823b07f7335b3e5"
       define_method(:install) do
         bin.install "ggcode"
       end
