@@ -4,22 +4,22 @@ cask "ggcode" do
 
   on_macos do
     on_intel do
-      sha256 "59d0c7f938351c2be8b1073b855fa201345be4a96d38023121b03bcccaf353d2"
+      sha256 "9bc34a180074a9d37e2865a4e7a7de855d156956214d1b189400c675019f9eca"
       url "https://github.com/topcheer/ggcode/releases/download/v#{version}/ggcode_darwin_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "52202ab42bd3c76ea23876e941c02cdc9172deabafa519aad00349f0e07e7027"
+      sha256 "2e5115e6132787977b193d6701dc74f8b51bcbc9eaa96f7c7d1733666c471510"
       url "https://github.com/topcheer/ggcode/releases/download/v#{version}/ggcode_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "1132737041fc00a833964b8866ca75db5004925d483042d5b31fde72895669af"
+      sha256 "9420933ee19f132fff3659bae62d5cdd2e6e136f7c7195387e9bcb16a834f888"
       url "https://github.com/topcheer/ggcode/releases/download/v#{version}/ggcode_linux_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "eb7673cd707597c5b5fbbd7b98f4f7ffe6eeb44c1f3637b5d1031faab4aaf2e2"
+      sha256 "d6918ec6903e9fd4b5e7584b6aa7af49f9ace4ab8badf28ffaa683b868ba4473"
       url "https://github.com/topcheer/ggcode/releases/download/v#{version}/ggcode_linux_arm64.tar.gz"
     end
   end
