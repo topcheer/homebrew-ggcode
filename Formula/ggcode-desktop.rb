@@ -2,17 +2,17 @@
 class GgcodeDesktop < Formula
   desc "AI coding agent with a native desktop interface."
   homepage "https://github.com/topcheer/ggcode"
-  version "1.3.58"
+  version "1.3.60"
   license "MIT"
 
   on_linux do
     on_intel do
       url "https://github.com/topcheer/ggcode/releases/download/v#{version}/ggcode-desktop_#{version}_linux_amd64"
-      sha256 "0773614ec0241b66216165f93c0df922b2400fce67815c04d1a5f2eb91b38b31"
+      sha256 "ec71e78c7428bf80e72d44ab9cdcf233b4643fbf70ef3bbca917cd52d5a75243"
     end
     on_arm do
       url "https://github.com/topcheer/ggcode/releases/download/v#{version}/ggcode-desktop_#{version}_linux_arm64"
-      sha256 "a172acab65aa27773d3353c6bc07469625f2d3cd646d34d661cbd768008dc579"
+      sha256 "4edca4e1e30e2e06537bf8b33dfdbf9883ad68ab33f7ac53d0eca313ea79eb97"
     end
   end
 
