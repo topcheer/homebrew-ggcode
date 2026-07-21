@@ -8,22 +8,22 @@ class GgcodeDesktop < Formula
   on_macos do
     on_intel do
       url "https://github.com/topcheer/ggcode/releases/download/v#{version}/ggcode-desktop_#{version}_darwin_amd64"
-      sha256 "42273494bedf28ad8f1a481d1defb21492471ceaeb63cf3c73dec8cf42f6731c"
+      sha256 "84e78398aa4b4c1d930948044123f4261a814c17c163857de676bd8eb87e918a"
     end
     on_arm do
       url "https://github.com/topcheer/ggcode/releases/download/v#{version}/ggcode-desktop_#{version}_darwin_arm64"
-      sha256 "ddca0ece2a0887750f257d42e77cb8aa03653b6d9ed3d390df50bc1196cf4c5b"
+      sha256 "c9d5bd138673014af7752594f5ae386c3ef082f5c96231f48e6107233f148c61"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/topcheer/ggcode/releases/download/v#{version}/ggcode-desktop_#{version}_linux_amd64"
-      sha256 "21bd7880d4e8ead8a037b207dbc05d3e19d1ea2f6bd25a9719d4407e77cf4312"
+      sha256 "1314cb22284cc03effeaa75c1adc3fa0ba5cbbeba5f6cab242b3d4c104df54b2"
     end
     on_arm do
       url "https://github.com/topcheer/ggcode/releases/download/v#{version}/ggcode-desktop_#{version}_linux_arm64"
-      sha256 "b03ff5fb11802ed99974d569566277caf0f832e3f403fbddb6da29c305cb5a3e"
+      sha256 "fefc9e170ec2d50f575ee00cbb379ef8612821f97f11c9ac1852aa56ef923778"
     end
   end
 
