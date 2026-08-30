@@ -2,28 +2,28 @@
 class GgcodeDesktop < Formula
   desc "AI coding agent with a native desktop interface."
   homepage "https://github.com/topcheer/ggcode"
-  version "1.3.226"
+  version "1.3.227"
   license "MIT"
 
   on_macos do
     on_intel do
       url "https://github.com/topcheer/ggcode/releases/download/v#{version}/ggcode-desktop_#{version}_darwin_amd64"
-      sha256 "8fd7ebe259af80922e4f212bc28d5413a7e0537e40012662261ccbe783800b6d"
+      sha256 "1360653b8c445b999daea1ad1cd21600aea85a62494f2ef9e549953fe682ae2b"
     end
     on_arm do
       url "https://github.com/topcheer/ggcode/releases/download/v#{version}/ggcode-desktop_#{version}_darwin_arm64"
-      sha256 "8670d812bc2bb47c5ce257cee8150b6be78ca248b8c9cf0831a6c71757ff3d89"
+      sha256 "39a524a6dbd5f091986f22e0b685f80b52fa95923932e8bcf5de36f7066fdfd2"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/topcheer/ggcode/releases/download/v#{version}/ggcode-desktop_#{version}_linux_amd64"
-      sha256 "e47095a61640d6a4951db57e2681d5b920193e12b16a02393e6488d8bea982cc"
+      sha256 "1d1303ea928cad9c5411311c37c4e43247992de9f646b48dc76b861dd9316bbf"
     end
     on_arm do
       url "https://github.com/topcheer/ggcode/releases/download/v#{version}/ggcode-desktop_#{version}_linux_arm64"
-      sha256 "9d745e89e5992d63a9a5dbf1fe726060244ee012012fe4fa2d67135d2d2fa702"
+      sha256 "acafaa333c0a9d99befab1cf567b1244e02e6b78af1fc038c2a9a9fce6587ef5"
     end
   end
 
