@@ -5,21 +5,21 @@
 class Ggcode < Formula
   desc "AI coding agent for the terminal with TUI, MCP, and IM integrations."
   homepage "https://github.com/topcheer/ggcode"
-  version "1.3.240"
+  version "1.3.241"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/topcheer/ggcode/releases/download/v1.3.240/ggcode_darwin_x86_64.tar.gz"
-      sha256 "70173a4388bd4f3278582d81fdb5df8033317ba43ea05891354bb12a1275dd11"
+      url "https://github.com/topcheer/ggcode/releases/download/v1.3.241/ggcode_darwin_x86_64.tar.gz"
+      sha256 "495b336af487ad9f704678959dc8a1d79ca31ab24006c464d72d3ea56763d297"
 
       define_method(:install) do
         bin.install "ggcode"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/topcheer/ggcode/releases/download/v1.3.240/ggcode_darwin_arm64.tar.gz"
-      sha256 "8633374b2504c31122fcb91e4d5fda373b99979f915ecffcf716b2f4bbe8f37e"
+      url "https://github.com/topcheer/ggcode/releases/download/v1.3.241/ggcode_darwin_arm64.tar.gz"
+      sha256 "9a2f949436a4264360d012b36280b7f44d436968fee8cf3cd725ad73abd2a310"
 
       define_method(:install) do
         bin.install "ggcode"
@@ -29,15 +29,15 @@ class Ggcode < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/topcheer/ggcode/releases/download/v1.3.240/ggcode_linux_x86_64.tar.gz"
-      sha256 "601e375bbc1616b1c038ca418aaf9bc8d76fb4a5edc7446de2f05e819b7e77de"
+      url "https://github.com/topcheer/ggcode/releases/download/v1.3.241/ggcode_linux_x86_64.tar.gz"
+      sha256 "f779063817e0ed5df572ee540355eadccb61556ea0ef47612c50dc9cc9754863"
       define_method(:install) do
         bin.install "ggcode"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/topcheer/ggcode/releases/download/v1.3.240/ggcode_linux_arm64.tar.gz"
-      sha256 "fc0fcdd859de2a1208269b252ea4ad411801c21345717353ba2e2f6b7ab34b8b"
+      url "https://github.com/topcheer/ggcode/releases/download/v1.3.241/ggcode_linux_arm64.tar.gz"
+      sha256 "9a833738907ac5b020265bc8b922585064ce1e842cd11e724de5874fc7e327e3"
       define_method(:install) do
         bin.install "ggcode"
       end
