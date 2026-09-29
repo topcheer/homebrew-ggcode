@@ -1,9 +1,9 @@
 # This file is auto-generated. DO NOT EDIT.
 cask "ggcode-desktop" do
-  version "1.3.248"
+  version "1.3.249"
 
   url "https://github.com/topcheer/ggcode/releases/download/v#{version}/ggcode-desktop_#{version}_darwin_universal.dmg"
-  sha256 "29fa84f028c599306dd4156f64c345ee088de7df94450242e69efff03f9b5a49"
+  sha256 "3e9a90c4200860604aeb2a0e1dea4e88046280e44a471a8124025f7e5d88e034"
 
   name "GGCode Desktop"
   desc "AI coding agent with a native desktop interface."
